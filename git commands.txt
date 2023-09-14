@@ -1,0 +1,6 @@
+git init ==> to initilize git on local
+git add . ==>add all files that needs to be pushed to server
+git commit -m "add any comment" ==> create a bunch so that we can see this commit on server for tracking
+git branch -m main
+git remote add <path>
+git push -u origin main

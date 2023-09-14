@@ -22,5 +22,15 @@ loop
 function
 
 
+create a program to take input from a user
+atleast have 5 values 
+and calculate the max of the them
+
+Check a string is palindrome or not
+mam=mam
+
+
+
+
 
 

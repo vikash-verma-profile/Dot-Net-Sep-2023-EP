@@ -8,7 +8,7 @@ namespace Day1
 {
     internal class varvsdynamic
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             dynamic i = "1";
             Console.WriteLine(i.GetType());
