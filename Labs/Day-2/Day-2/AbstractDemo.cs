@@ -38,7 +38,7 @@ namespace Day_2
     }
     internal class AbstractDemo
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             Mammel a = new Mammel(12,"Test");
             a.PrintName();
