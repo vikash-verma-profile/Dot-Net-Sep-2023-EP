@@ -31,7 +31,7 @@ namespace Day_3
     }
     internal class MultipleInheritance
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             c objC=new c();
             //objC.show();
