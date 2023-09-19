@@ -34,7 +34,7 @@ namespace Day_3
     }
     internal class OperatorDemo
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             sum s1= new sum(1);
             sum s2 = new sum(1);
