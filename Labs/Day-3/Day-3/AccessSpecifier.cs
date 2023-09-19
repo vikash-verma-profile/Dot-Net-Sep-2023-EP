@@ -19,7 +19,7 @@ namespace Day_3
     }
     internal class AccessSpecifier
     {
-        public static void Main()
+        public static void Main6()
         {
 
             Day_3.Demo2.Class1 c1= new Day_3.Demo2.Class1();
