@@ -20,7 +20,7 @@ namespace Day_3
     }
     internal class ConstVsReadonly
     {
-        public static void Main(string[] args)
+        public static void Main6(string[] args)
         {
             const int a= 1;
             //a = 2;
