@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace Day_3
 {
+    class AB
+    {
+        AB() { }
+        ~AB()
+        {
+
+        }
+    }
     internal class ExceptionalHandling
     {
         public static void Main()
