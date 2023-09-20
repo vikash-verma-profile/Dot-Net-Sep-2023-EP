@@ -1,0 +1,21 @@
+COllections
+
+1.System.COllections
+2.System.COllections.Generics
+
+System.COllections.Generics ==>
+
+Dictionary<>
+List<>
+Queue<>
+Stack<>
+HashSet<>
+LinkedList<>
+
+System.COllections
+
+ArrayList
+Queue
+Stack
+Hashtable
+

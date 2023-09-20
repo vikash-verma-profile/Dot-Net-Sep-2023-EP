@@ -8,7 +8,7 @@ namespace Day_4
 {
     internal class CollectiononlyDemo
     {
-        public static void Main()
+        public static void Main5()
         {
             ArrayList arrayList= new ArrayList();
             arrayList.Add(1);
