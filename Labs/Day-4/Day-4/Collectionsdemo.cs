@@ -8,7 +8,7 @@ namespace Day_4
 {
     internal class Collectionsdemo
     {
-        public static void Main()
+        public static void Main4()
         {
             Dictionary<int,string> dict=new Dictionary<int,string>();
 
