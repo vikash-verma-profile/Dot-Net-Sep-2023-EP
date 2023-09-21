@@ -20,7 +20,7 @@ namespace Day_5
         {
             return (a > 5) ?true:false;
         }
-        public static void Main()
+        public static void Main5()
         {
             Func<int, int, int> func = sum;
             Console.WriteLine(func(1,2));
