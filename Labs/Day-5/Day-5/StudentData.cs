@@ -36,7 +36,7 @@ namespace Day_5
     }
     internal class StudentData
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             string FilePath = "C:\\Users\\om\\Desktop\\Dot-Net-Core\\Labs\\Day-5\\Day-5\\files\\test.txt";
             Student s = new Student(1, "Suresh kumar");
