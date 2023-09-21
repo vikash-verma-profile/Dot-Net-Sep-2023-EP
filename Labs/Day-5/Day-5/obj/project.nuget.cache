@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "du9EsIaNfKBwGVsNb+6h2ZN2rkUMauUlDui1+jeUP+tYCeSiCkHfjbMxes1JieWE4n748/2Z7oSSb5JEjFJtDw==",
+  "dgSpecHash": "iqdE/G8Pg85c9k4+duNpKeVpC9xz14nYt4sKARZZ1EDmRejaI8QchtfTqkaCk09ZVKkVG6t0VEQtn7m3PDfjEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\om\\Desktop\\Dot-Net-Core\\Labs\\Day-5\\Day-5\\Day-5.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\om\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

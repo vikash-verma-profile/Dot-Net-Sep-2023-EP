@@ -4,7 +4,7 @@ namespace Day_5
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string FilePath = "C:\\Users\\om\\Desktop\\Dot-Net-Core\\Labs\\Day-5\\Day-5\\files\\test.txt";
             StreamWriter sw = new StreamWriter(FilePath);
