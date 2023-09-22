@@ -1,0 +1,12 @@
+Create a menu based application that will store values in array and perform the below operations
+
+1.Add
+2.Update
+3.Delete
+4.List
+
+Employee
+ID
+Name
+Salary
+
