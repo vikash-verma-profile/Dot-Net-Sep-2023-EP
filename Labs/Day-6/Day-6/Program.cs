@@ -17,11 +17,13 @@
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Test test=new Test();
             test.Print();
             test.PrintNew();
+            Test test1=new Test();
+            test1.PrintNew();
         }
     }
 }
