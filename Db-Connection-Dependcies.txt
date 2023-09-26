@@ -1,0 +1,7 @@
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+
+
+Data Source=DESKTOP-CUO3FKB;Initial Catalog=BookDB;Integrated Security=True
