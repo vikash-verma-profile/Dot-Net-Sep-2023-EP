@@ -8,3 +8,7 @@ Data Source=DESKTOP-CUO3FKB;Initial Catalog=BookDB;Integrated Security=True
 
 
 Scaffold-Dbcontext "Data Source=DESKTOP-CUO3FKB;Initial Catalog=BookDB;Integrated Security=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+add-migration <migration-name>
+update-database
