@@ -12,3 +12,8 @@ Scaffold-Dbcontext "Data Source=DESKTOP-CUO3FKB;Initial Catalog=BookDB;Integrate
 
 add-migration <migration-name>
 update-database
+
+
+Employee Project/banking application 
+
+sync that with database
