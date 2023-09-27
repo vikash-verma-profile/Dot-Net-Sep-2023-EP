@@ -22,5 +22,22 @@ namespace DemoWebApi.Controllers
             db.SaveChanges();
             return Ok("Record is being added successfully");
         }
+
+        [HttpPut]
+        public IActionResult PutBooks(TblBook book)
+        {
+            db.TblBooks.Update(book);
+            db.SaveChanges();
+            return Ok("Record is being successfully successfully");
+        }
+
+        [HttpDelete]
+        public IActionResult DeleteBooks(int id)
+        {
+            var book = db.TblBooks.Where(x => x.Id == id).FirstOrDefault();
+            db.TblBooks.Remove(book);
+            db.SaveChanges();
+            return Ok("Record is being deleted successfully");
+        }
     }
 }
