@@ -117,6 +117,10 @@ namespace DemoWebApi.Controllers
             //select
             var selectedata = db.TblBooks.Select(x => x.Id);
             var democollection = new List<int>() { 1, 2, 3, 4, 4, 4, 6 };
+            var democollection2 = new List<int>() { 1, 2, 3, 4, 4, 4, 6 };
+
+            var inetrsect = democollection.Intersect(democollection2);
+            var except = democollection.Except(democollection2);
 
             var distictcollection = democollection.Distinct().ToList();
 
@@ -126,6 +130,22 @@ namespace DemoWebApi.Controllers
 
             //var sql=(System.Data.)query.ToString();
             return data;
+        }
+        [HttpPost]
+        [Route("Validate")]
+        public IActionResult SomeApi(SampleRequest sample)
+        {
+            if(ModelState.IsValid)
+            {
+                return Ok("Please provide some value.");
+
+            }
+            else
+            {
+                return Ok();
+            }
+
+            
         }
     }
 }
