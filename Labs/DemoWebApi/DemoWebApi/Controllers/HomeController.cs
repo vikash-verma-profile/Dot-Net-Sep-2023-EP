@@ -92,5 +92,40 @@ namespace DemoWebApi.Controllers
 
             return studentdatalist;
         }
+
+        [HttpGet]
+        [Route("/test")]
+        public IList<TblBook> LinqPractice()
+        {
+            //Take function in Linq
+            var data = db.TblBooks.Take(1).ToList();
+            //Skip function in Linq
+            var temp = db.TblBooks.Skip(2).ToList();
+            IQueryable query = db.TblBooks.Skip(1);
+
+            //Orderby function in Linq
+
+            var orderbyvaluedesc = db.TblBooks.OrderByDescending(x => x.Id).ThenBy(x=>x.BookName);
+            var orderbyvalueasc = db.TblBooks.OrderBy(x => x.Id);
+
+            List<int> numbers = new List<int> { 1 };
+            List<int> emptynumbers = new List<int>();
+            var single = numbers.Single();
+            var singleandDefault = emptynumbers.SingleOrDefault();
+
+
+            //select
+            var selectedata = db.TblBooks.Select(x => x.Id);
+            var democollection = new List<int>() { 1, 2, 3, 4, 4, 4, 6 };
+
+            var distictcollection = democollection.Distinct().ToList();
+
+            var groupbycollection = democollection.GroupBy(X=>X);
+
+            var sum = democollection.Sum(x => { if (x % 2 == 0) { return x; } else { return 0; } });
+
+            //var sql=(System.Data.)query.ToString();
+            return data;
+        }
     }
 }
