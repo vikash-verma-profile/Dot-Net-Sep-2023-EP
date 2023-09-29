@@ -1,3 +1,7 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
 namespace DemoWebApi
 {
     public class Program
@@ -13,6 +17,32 @@ namespace DemoWebApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            //ADDING BEARER Configuration
+
+            builder.Services.AddAuthentication(
+                x =>
+                {
+                    x.DefaultAuthenticateScheme=JwtBearerDefaults.AuthenticationScheme;
+                    x.DefaultChallengeScheme=JwtBearerDefaults.AuthenticationScheme;
+                }).AddJwtBearer(
+                o =>
+                {
+                    var Key = Encoding.UTF8.GetBytes(builder.Configuration["JWT:Key"]);
+                    o.SaveToken = true;
+                    o.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidIssuer = builder.Configuration["JWT:Issuer"],
+                        ValidAudience = builder.Configuration["JWT:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Key),
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                        ValidateIssuerSigningKey=true,
+                        ValidateLifetime=true
+                    };
+                }
+                );
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -23,7 +53,8 @@ namespace DemoWebApi
             }
 
             app.UseHttpsRedirection();
-
+            //Authentication
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

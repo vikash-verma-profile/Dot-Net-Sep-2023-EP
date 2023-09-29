@@ -21,6 +21,8 @@ public partial class BookDbContext : DbContext
 
     public virtual DbSet<TblCourseBookMapping> TblCourseBookMappings { get; set; }
 
+    public virtual DbSet<TblLogin> TblLogins { get; set; }
+
     public virtual DbSet<TblStudent> TblStudents { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -52,6 +54,15 @@ public partial class BookDbContext : DbContext
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.BookId).HasColumnName("BookID");
             entity.Property(e => e.CourseId).HasColumnName("CourseID");
+        });
+
+        modelBuilder.Entity<TblLogin>(entity =>
+        {
+            entity.ToTable("tblLogin");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Password).HasMaxLength(200);
+            entity.Property(e => e.UserName).HasMaxLength(200);
         });
 
         modelBuilder.Entity<TblStudent>(entity =>
