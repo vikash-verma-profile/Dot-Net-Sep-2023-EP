@@ -2,16 +2,18 @@
 
 
 
-@{
-
-    foreach (var item in Model)
-    {
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://media.gettyimages.com/id/157482029/photo/stack-of-books.jpg?s=612x612&w=gi&k=20&c=_Yaofm8sZLZkKs1eMkv-zhk8K4k5u0g0fJuQrReWfdQ=" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">@item.BookName</h5>
+<div class="row">
+    @{
+        foreach (var item in Model)
+        {
+            <div class="col-sm-4">
+                <div class="card mb-3" style="max-width: 18rem;">
+                    <div class="card-body">
+                        <img class="card-img-top" src="https://media.gettyimages.com/id/157482029/photo/stack-of-books.jpg?s=612x612&w=gi&k=20&c=_Yaofm8sZLZkKs1eMkv-zhk8K4k5u0g0fJuQrReWfdQ=" alt="Card image cap" />
+                        <h5 class="card-title">@item.BookName</h5>
+                    </div>
+                </div>
             </div>
-        </div>
+        }
     }
-}
-    
+</div>

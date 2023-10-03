@@ -16,7 +16,7 @@ namespace DemoWebApi.Controllers
         [HttpGet]
         public IEnumerable<TblBook> GetBooks()
         {
-            return db.TblBooks;
+            return db.TblBooks.OrderByDescending(x=>x.Id);
         }
         [HttpPost]
         public IActionResult PostBooks(TblBook book)
