@@ -6,6 +6,7 @@ C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\bin\Debug\net6.0\Dem
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\bin\Debug\net6.0\DemoWebApp.runtimeconfig.json
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\bin\Debug\net6.0\DemoWebApp.dll
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\bin\Debug\net6.0\DemoWebApp.pdb
+C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.csproj.AssemblyReference.cache
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.AssemblyInfoInputs.cache
@@ -22,6 +23,7 @@ C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\sta
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\scopedcss\bundle\DemoWebApp.styles.css
+C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.csproj.CopyComplete
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.dll
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\refint\DemoWebApp.dll
 C:\Users\om\Desktop\Dot-Net-Core\Labs\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.pdb

@@ -39,6 +39,7 @@ namespace DemoWebApi.Controllers
             }
             return respose;
         }
+        [NonAction]
         private LoginViewModel ValidateUser(LoginViewModel login)
         {
             if(db.TblLogins.Any(x=>x.UserName==login.UserName && x.Password==login.Password))
@@ -50,6 +51,7 @@ namespace DemoWebApi.Controllers
                 return null;
             }
         }
+        [NonAction]
         private string GenerateToken(LoginViewModel login)
         {
             try

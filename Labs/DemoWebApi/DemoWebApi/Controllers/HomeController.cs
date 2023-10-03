@@ -8,7 +8,7 @@ namespace DemoWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class HomeController : ControllerBase
     {
         BookDbContext db=new BookDbContext();

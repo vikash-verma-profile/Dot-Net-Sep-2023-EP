@@ -1,7 +1,17 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model IEnumerable<DemoWebApp.Models.Books>
 
-Coming from Index.cshtml
+
+
+@{
+
+    foreach (var item in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://media.gettyimages.com/id/157482029/photo/stack-of-books.jpg?s=612x612&w=gi&k=20&c=_Yaofm8sZLZkKs1eMkv-zhk8K4k5u0g0fJuQrReWfdQ=" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@item.BookName</h5>
+            </div>
+        </div>
+    }
+}
+    

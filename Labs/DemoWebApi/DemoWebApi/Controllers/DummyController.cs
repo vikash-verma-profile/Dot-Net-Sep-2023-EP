@@ -7,6 +7,7 @@ namespace DemoWebApi.Controllers
     [ApiController]
     public class DummyController : ControllerBase
     {
+        [HttpGet]
         public string Get()
         {
             return "Vikash";

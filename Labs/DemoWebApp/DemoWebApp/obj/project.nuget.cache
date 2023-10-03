@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "57F4AE385P+6JvLzuR2YWfZsHmz7FGhXpWi6rDSTl6+6H3YeA2IWgfkv1DFzdL+gHzpjSCNSvZv/A7AeNUCJrg==",
+  "dgSpecHash": "uVPrQDA+0Y9yFrYe3OXML/fqQ6khnRu6IN7FvFo53SAgfaocEiP0WQ2PmGGi3tey6CXu5E2zFyBZdW7BR//7WQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\om\\Desktop\\Dot-Net-Core\\Labs\\DemoWebApp\\DemoWebApp\\DemoWebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\om\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
