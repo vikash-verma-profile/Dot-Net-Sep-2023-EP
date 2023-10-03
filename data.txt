@@ -1,0 +1,60 @@
+Tajashwini
+microservices created
+hosted using docker 
+both website and web service are working
+
+Services used
+login using cognito user pool
+s3
+ecs
+rds-postgres
+
+
+kulkarni
+
+UI  is crated and used s3 for hosting website
+RDS mysql==> product data
+dynamo db ==>order data
+lambda ==> delete data from mysql and to insert data  and used python for the same.
+aws gateway  used 
+
+
+Revathi
+
+react
+login using cognito user pool
+mysql db
+
+
+nirosha
+
+login using  cognito user pool
+rds with mysql
+
+
+
+
+ronak
+
+postgres
+
+
+aati
+
+spring boot
+mysql
+angular
+
+
+johson
+
+just started
+
+
+
+
+
+
+
+
+
