@@ -21,5 +21,16 @@ namespace DemoWebApp.Controllers
             }
             return RedirectToAction("Index", "Home");
         }
+        public IActionResult BookList()
+        {
+            IEnumerable<Books> booklist = new List<Books>();
+            using (HttpClient client = new HttpClient())
+            {
+                var data = client.GetAsync("https://localhost:7032/api/Home").Result.Content.
+                    ReadAsStringAsync().Result;
+                booklist = JsonConvert.DeserializeObject<IEnumerable<Books>>(data);
+            }
+            return View(booklist);
+        }
     }
 }

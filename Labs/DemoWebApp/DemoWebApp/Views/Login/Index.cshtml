@@ -1,0 +1,24 @@
+﻿@model DemoWebApp.Models.LoginViewModel
+
+<div class="card mb-3" style="border:0">
+    <div class="card-body">
+        @using (Html.BeginForm("LoginUser", "Login"))
+        {
+            <div class="form-group">
+                @Html.LabelFor(x=>x.UserName)
+            </div>
+            <div class="form-group">
+                @Html.TextBoxFor(x=>x.UserName,new {@class="form-control"})
+            </div>
+                <div class="form-group">
+                @Html.LabelFor(x=>x.Password)
+            </div>
+                <div class="form-group">
+                @Html.PasswordFor(x=>x.Password,new {@class="form-control"})
+                </div>
+            <br />
+            <input type="submit" class="btn btn-primary" />
+
+        }
+    </div>
+</div>
