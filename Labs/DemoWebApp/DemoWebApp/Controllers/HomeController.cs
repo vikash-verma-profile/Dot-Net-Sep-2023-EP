@@ -17,6 +17,11 @@ namespace DemoWebApp.Controllers
                     ReadAsStringAsync().Result;
                 booklist=JsonConvert.DeserializeObject< IEnumerable<Books>>(data);
             }
+            ViewBag.Message = "Vikash";
+            ViewData["Msg"] = "I am from ViewData";
+            TempData["Msg"] = "I am from tempdata";
+            
+
            return View(booklist);
         }
     }
